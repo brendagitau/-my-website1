@@ -11,7 +11,7 @@
 body {
     background-image: url("wall.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 100vh;
 }
 ul{
@@ -65,7 +65,7 @@ ul li a:hover{
     justify-content: center;
     
     margin-right: 40%;
-    background-color:lightgrey;
+    background-color:darkgrey;
     
     
     
