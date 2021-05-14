@@ -81,7 +81,7 @@ ul li a:hover{
 .whycant{
     text-align: right;
     justify-content: right;
-    float: right;
+    float: left;
     text-size-adjust: 10px;
 }
 .title h3{
