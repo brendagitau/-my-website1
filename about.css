@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', 'Times New Roman' ;
+     box-sizing: border-box;
+     text-align:center  ;
+     color: gold;
+     line-height :1.5;
+     letter-spacing: 1px;
+
+
+}
+
+
+
+body{
+    
+    
+    height: 100vh;
+    display :flex;
+    background-image: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+ul{width:49vw;
+    float :right;
+    list-style-type: none;
+    margin-top: 1px;
+    
+}
+.logo{
+   width: 0%; 
+float:left;
+position: absolute;
+display:block;
+margin-left:0%;
+    
+}
+ul li{
+    display: inline-flex;
+
+}ul li a{
+    text-decoration: none;
+    color:rgb(247, 230, 137);
+    padding :5px 20px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+    float: right;
+    text-shadow: dimgrey;
+    margin-top: -19%;
+    margin-left:- 90%;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+
+}
+ul li a:hover{
+    background-color:#FFED8A;
+    color: crimson;
+    
+}
+ ul li.active a{
+     background-color:rgb(231, 221, 164);;
+    color: crimson;
+}
+
+
+.socials{
+    display :list-item;
+    justify-content:right;
+}
+    
+.title{
+   /* position: relative;
+   
+    transform:translate(-50%,-50%)*/ 
+    padding-top: 25%; 
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    
+    
+}
+.title h1{
+    color:#FFED8A;
+    font-size:45px ;
+   
+    
+}
+.title h2{
+    color:rgb(231, 221, 164);
+    font-size:20px ;
+}
+ /*.button{
+    
+   top: 76%;
+    left: 40%;
+   transform:translate(-50% ,-50%)
+}*/
+button{
+    /* position: absolute; */
+    color:#FFED8A;
+    text-decoration:none;
+    padding :  25px;
+    border:1px solid #FFED8A ;
+    border-radius: 12px;
+    background-color: transparent;
+    transition: 0.6s ease;
+    
+}
+form :hover{
+
+    background-color:#FFED8A;
+    color: crimson;
+    
+}
+.button{
+    padding-left: 15%;
+    padding-top:6%;
+}
+
+
+
+.content{
+    min-height: 100vh;
+    width: 100%;
+    margin-top:15%;
+    
+}
+ 
+
+ .blockquote{
+    
+     width:500px;
+     height: 200px;
+     text-align: left;
+    margin-left:-70%;
+
+     
+     
+     text-shadow: 2px 2px dimgray;
+     
+ }   
+
+    
+  
+
+p{
+    text-align:center;
+justify-content: left;
+    
+}
+
+.class0 p{
+    float:center;
+    justify-items: center;
+}

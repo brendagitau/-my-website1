@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+
+
+body{
+    background-image: url("images/contact\ me.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+ul{
+    float :right;
+    list-style-type: none;
+    margin-top: 5px;
+}
+.logo{
+    width:0;
+float:left;
+position: absolute;
+display:block;
+margin-left:-60%;
+margin-top:-2%
+    
+}
+ul li{
+    display: inline-flex;
+    
+}ul li a{
+    text-decoration: none;
+    color:rgb(212, 181, 1);
+    padding :5px 20px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+    float: right;
+    text-shadow: dimgrey;
+    margin-top: -19%;
+    margin-left:- 90%;
+    width: 100%;
+    justify-content: space-around;
+    
+
+}
+ul li a:hover{
+    background-color:#FFED8A;
+    color: crimson;
+    
+}
+ ul li.active a{
+     background-color:rgb(231, 221, 164);;
+    color: crimson;
+}
+.main{
+  max-width: 1200px;  
+  margin :auto;
+}
+    
+.title{
+   /* position: relative;
+   
+    transform:translate(-50%,-50%)*/ 
+    padding-top: 25%; 
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    
+    
+}
+.title h1{
+    color:#FFED8A;
+    font-size:45px ;
+   
+    
+}
+.title h2{
+    color:rgb(231, 221, 164);
+    font-size:20px ;
+}
+ /*.button{
+    
+   top: 76%;
+    left: 40%;
+   transform:translate(-50% ,-50%)
+}*/
+
+
+form :hover{
+
+    background-color:#FFED8A;
+    color: crimson;
+    
+}
+.button{
+    padding-left: 15%;
+    padding-top:6%;
+}
+.a{
+    margin-left: 40px;
+}
+.socials{
+    text-align:left;
+}
